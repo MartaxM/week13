@@ -25,6 +25,11 @@ function Book() {
             <p id="author">{book.response.author}</p>
             <p id="pages">{book.response.pages}</p>
         </div>
+    }else {
+        bookDetails = <div>
+            <h2 id="404">404: This is not the webpage you are looking for"</h2>
+            <p>404</p>
+        </div>
     }
 
     return (
